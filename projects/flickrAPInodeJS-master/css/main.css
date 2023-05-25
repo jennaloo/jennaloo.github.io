@@ -1,0 +1,128 @@
+#myNav {
+    background-color: rgba(30, 30, 30, 1);
+}
+
+input::placeholder {
+    font-style: italic;
+    color: lightgrey;
+}
+
+input {
+    width: 50%;
+    height: 60px;
+}
+
+.pagination {
+    display: none;
+}
+
+.show {
+    display: block;
+    margin: 0 auto;
+}
+
+.show a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.searchBar {
+    margin-top: 150px;
+    background-color: rgba(10, 5, 0, 0.9);
+}
+
+.searchBar {
+    position: absolute;
+    padding: 5%;
+}
+
+.show a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+body {
+    background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.searchBtn {
+    background-color: #FB5014;
+    color: white;
+}
+
+.searchBtn:hover {
+    background-color: #F6320F;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    top: 0;
+    padding: 50px;
+}
+
+#modal img {
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+@media(max-width: 500px) {
+    #modal img {
+        width: auto;
+        height: 40vh;
+    }
+    #modal {
+        padding: 0;
+        margin-top: 50%;
+    }
+}
+
+i {
+    font-size: 50px;
+    color: white;
+}
+
+i:hover {
+    color: #fb5014;
+}
+
+.singlePhoto:hover {
+    cursor: pointer;
+}
+
+.modalclass:hover {
+    cursor: pointer;
+}
+
+#pagination a:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    letter-spacing: 2px;
+}
+
+/*
+add to modal .closeBtn {
+    float: right;
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+}
+
+.closeBtn:hover {
+    color: #fb5014;
+    cursor: pointer;
+}
+*/

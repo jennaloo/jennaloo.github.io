@@ -1,0 +1,38 @@
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+#body {
+    background-image: url(../img/concert.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.row {
+    height: 100vh;
+}
+
+.key {
+    display: inline-block;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(300, 300, 300, 0.7);
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    color: navy;
+    transition: all 0.5s;
+}
+
+.key p {
+    font-size: 15px;
+    color: navy;
+}
+
+.playing {
+    border: 1px solid cyan;
+    box-shadow: 1px 1px 50px 5px cyan;
+}

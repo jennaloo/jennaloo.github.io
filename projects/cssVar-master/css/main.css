@@ -1,0 +1,25 @@
+*{
+    background-color:#010A37;
+    color:White;
+}
+
+:root{
+    --base:#ffc600;
+    --spacing:10px;
+    --blur:10px;
+}
+
+img{
+    padding:var(--spacing);
+    background: var(--base);
+    filter:blur(var(--blur));
+}
+
+#highlight{
+    color:var(--base);
+}
+
+.title{
+    font-family: 'Cookie', cursive;
+    font-size:50px;
+}

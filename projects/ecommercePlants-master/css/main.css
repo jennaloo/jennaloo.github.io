@@ -1,0 +1,46 @@
+* {
+    transition: 0.5s ease;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+}
+
+#container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#item {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+#navbar {
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+#title {
+    font-family: 'Josefin Slab', serif;
+    font-size: 60px;
+}
+
+.checkout,
+i {
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+
+@media (max-width:860px) {
+    #title {
+        font-size: 35px;
+    }
+}

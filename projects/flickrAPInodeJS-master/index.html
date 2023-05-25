@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- Character Set -->
+    <meta charset="utf-8">
+    <!-- Media Queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title>Flickr API</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div id="myNav" class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-3"><a href="index.html"><i class="fas fa-camera-retro"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal"></div>
+
+    <div class="container-fluid searchBar">
+        <div class="row" id="searchBar">
+            <div class="search w-100 text-center mx-auto">
+                <h2 class="text-light">Find your perfect photo. Search Flickr !</h2>
+                <input placeholder="search..." class="m-2" id="search" type="text">
+                <button onclick="searchFor(0)" class="m-2 p-3 btn searchBtn">Search Flickr</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" id="imagesGoHere">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row py-5 mx-auto text-center">
+            <div id="pagination" class="pagination">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.js " integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin=" anonymous "></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
